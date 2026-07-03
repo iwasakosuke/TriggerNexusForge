@@ -1,0 +1,99 @@
+/*
+Theme Name: TNF Starter
+Theme URI: https://github.com/iwasakosuke/TriggerNexusForge
+Author: Trigger Nexus Forge
+Description: Trigger Nexus Forge のWordPressスターターテーマ。案件ごとにコピーしてカスタマイズする。
+Version: 1.0.0
+License: GNU General Public License v2 or later
+Text Domain: tnf-starter
+*/
+
+/* ==========================================================================
+   テーマ固有スタイル
+   デザイントークン(css/tokens.css)・共通コンポーネント(css/components.css)は
+   functions.php で読み込み済み。ここには案件固有のスタイルだけを書く。
+   ========================================================================== */
+
+/* --- サイトヘッダー --- */
+
+.site-header {
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--color-border);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.site-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: var(--space-2);
+}
+
+.site-logo {
+  font-family: var(--font-heading);
+  font-weight: 800;
+  font-size: var(--text-lg);
+  color: var(--color-secondary);
+}
+
+.global-nav ul {
+  display: flex;
+  gap: var(--space-3);
+  align-items: center;
+}
+
+.global-nav a:hover {
+  color: var(--color-primary);
+}
+
+/* --- 記事一覧・記事本文 --- */
+
+.post-list {
+  display: grid;
+  gap: var(--space-3);
+}
+
+.entry-content h2 {
+  font-size: var(--text-2xl);
+  margin-block: var(--space-6) var(--space-2);
+  padding-bottom: var(--space-1);
+  border-bottom: 3px solid var(--color-primary);
+}
+
+.entry-content h3 {
+  font-size: var(--text-xl);
+  margin-block: var(--space-4) var(--space-2);
+}
+
+.entry-content p {
+  margin-bottom: var(--space-2);
+}
+
+.entry-content ul,
+.entry-content ol {
+  list-style: revert;
+  padding-left: 1.5em;
+  margin-bottom: var(--space-2);
+}
+
+.entry-meta {
+  color: var(--color-muted);
+  font-size: var(--text-sm);
+}
+
+/* --- フッター --- */
+
+.site-footer {
+  margin-top: var(--space-12);
+  padding-block: var(--space-6);
+}
+
+/* --- レスポンシブ --- */
+
+@media (max-width: 768px) {
+  .global-nav {
+    display: none; /* モバイルメニューは案件要件に応じて実装する */
+  }
+}

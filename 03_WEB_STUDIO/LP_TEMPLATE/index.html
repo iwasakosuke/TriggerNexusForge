@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{キャッチコピー}}|{{サービス名}}</title>
+  <meta name="description" content="{{LPの説明文(120字以内)}}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{キャッチコピー}}|{{サービス名}}">
+  <meta property="og:description" content="{{LPの説明文}}">
+  <meta property="og:url" content="{{LPのURL}}">
+  <meta property="og:image" content="{{OGP画像URL(1200x630px)}}">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@700;800&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== 1. FV:3秒で「自分に関係ある」と伝える ===== -->
+  <section class="fv">
+    <div class="container fv__inner">
+      <div class="fv__copy">
+        <p class="badge">{{ターゲット呼びかけ(例:LP制作をお考えの個人事業主の方へ)}}</p>
+        <h1 class="fv__title">{{キャッチコピー(15〜25字・ベネフィットで)}}</h1>
+        <p class="fv__sub">{{サブコピー(40字以内・キャッチの補足)}}</p>
+        <ul class="fv__points">
+          <li>{{実績・特長1(数字があれば数字で)}}</li>
+          <li>{{実績・特長2}}</li>
+          <li>{{実績・特長3}}</li>
+        </ul>
+        <a href="#contact" class="btn btn--primary btn--lg">{{CTA文言(例:まずは無料で相談する)}}</a>
+        <p class="text-muted mt-2">{{CTA補足(例:相談は30分・売り込みはしません)}}</p>
+      </div>
+      <div class="fv__visual">
+        <img src="images/fv.png" alt="{{キービジュアルの説明}}" width="560" height="480">
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 2. 課題共感:読者の悩みを言語化する ===== -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">
+        <span class="section-title__en">Problem</span>
+        {{課題セクション見出し(例:こんなお悩みはありませんか?)}}
+      </h2>
+      <div class="card-grid">
+        <div class="card"><p>{{悩み1(ターゲットの言葉で)}}</p></div>
+        <div class="card"><p>{{悩み2}}</p></div>
+        <div class="card"><p>{{悩み3}}</p></div>
+      </div>
+      <p class="text-center mt-4">{{共感の一言+解決へのブリッジ(その悩み、〜で解決できます)}}</p>
+    </div>
+  </section>
+
+  <!-- ===== 3. 解決策:サービスの紹介 ===== -->
+  <section class="section section--dark">
+    <div class="container">
+      <h2 class="section-title">
+        <span class="section-title__en">Solution</span>
+        {{解決策セクション見出し}}
+      </h2>
+      <p class="text-center">{{サービスの概要説明(何を・どうやって提供するか)}}</p>
+      <img src="images/service.png" alt="{{サービス説明図の内容}}" class="mt-4">
+    </div>
+  </section>
+
+  <!-- ===== 4. ベネフィット:導入後の変化を見せる ===== -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">
+        <span class="section-title__en">Benefit</span>
+        {{ベネフィットセクション見出し(例:導入後、こう変わります)}}
+      </h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3 class="card__title">{{ベネフィット1見出し}}</h3>
+          <p>{{Before→Afterの変化を具体的に}}</p>
+        </div>
+        <div class="card">
+          <h3 class="card__title">{{ベネフィット2見出し}}</h3>
+          <p>{{説明}}</p>
+        </div>
+        <div class="card">
+          <h3 class="card__title">{{ベネフィット3見出し}}</h3>
+          <p>{{説明}}</p>
+        </div>
+      </div>
+      <!-- 中盤CTA -->
+      <div class="text-center mt-4">
+        <a href="#contact" class="btn btn--primary btn--lg">{{CTA文言}}</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 5. 実績・お客様の声(事実のみ掲載) ===== -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">
+        <span class="section-title__en">Voice</span>
+        {{実績セクション見出し(例:ご利用いただいた方の声)}}
+      </h2>
+      <div class="card-grid">
+        <div class="card">
+          <p>「{{お客様の声1(実際の声のみ・捏造禁止)}}」</p>
+          <p class="text-muted mt-2">{{属性(業種・お名前など掲載許可の範囲で)}}</p>
+        </div>
+        <div class="card">
+          <p>「{{お客様の声2}}」</p>
+          <p class="text-muted mt-2">{{属性}}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 6. 料金:松竹梅3プラン ===== -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">
+        <span class="section-title__en">Price</span>
+        {{料金セクション見出し}}
+      </h2>
+      <div class="card-grid">
+        <div class="card price-card">
+          <h3 class="card__title">{{プラン名(梅)}}</h3>
+          <p class="price-card__price">{{金額}}<span>円(税別)</span></p>
+          <ul class="price-card__list">
+            <li>{{含まれるもの}}</li>
+          </ul>
+        </div>
+        <div class="card price-card price-card--featured">
+          <p class="badge">おすすめ</p>
+          <h3 class="card__title">{{プラン名(竹)}}</h3>
+          <p class="price-card__price">{{金額}}<span>円(税別)</span></p>
+          <ul class="price-card__list">
+            <li>{{含まれるもの}}</li>
+          </ul>
+        </div>
+        <div class="card price-card">
+          <h3 class="card__title">{{プラン名(松)}}</h3>
+          <p class="price-card__price">{{金額}}<span>円(税別)</span></p>
+          <ul class="price-card__list">
+            <li>{{含まれるもの}}</li>
+          </ul>
+        </div>
+      </div>
+      <p class="text-muted text-center mt-2">{{注記(修正回数・納期・スコープ外対応の条件)}}</p>
+    </div>
+  </section>
+
+  <!-- ===== 7. FAQ:購入阻害要因の先回り解消 ===== -->
+  <section class="section">
+    <div class="container container--narrow">
+      <h2 class="section-title">
+        <span class="section-title__en">FAQ</span>
+        よくあるご質問
+      </h2>
+      <details class="faq-item">
+        <summary>{{質問1(価格・納期・不安への先回り)}}</summary>
+        <p>{{回答1(正直に。できないことはできないと書く)}}</p>
+      </details>
+      <details class="faq-item">
+        <summary>{{質問2}}</summary>
+        <p>{{回答2}}</p>
+      </details>
+      <details class="faq-item">
+        <summary>{{質問3}}</summary>
+        <p>{{回答3}}</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- ===== 8. 最終CTA ===== -->
+  <section class="section section--dark" id="contact">
+    <div class="container text-center">
+      <h2 class="section-title">{{最終CTA見出し(例:まずは話を聞いてみませんか?)}}</h2>
+      <p>{{最後の一押し(行動しない場合の現状維持と、行動した場合の変化)}}</p>
+      <div class="mt-4">
+        <a href="{{フォームURL}}" class="btn btn--primary btn--lg">{{CTA文言}}</a>
+      </div>
+      <p class="text-muted mt-2">{{不安の最終解消(例:ご相談だけでもOK/しつこい営業はしません)}}</p>
+    </div>
+  </section>
+
+  <!-- ===== フッター ===== -->
+  <footer class="site-footer">
+    <div class="container text-center">
+      <p class="text-muted">
+        <a href="{{特商法ページURL}}">特定商取引法に基づく表記</a> |
+        <a href="{{プライバシーポリシーURL}}">プライバシーポリシー</a>
+      </p>
+      <p class="text-muted mt-2">&copy; 2026 {{会社名/屋号}}</p>
+    </div>
+  </footer>
+
+</body>
+</html>

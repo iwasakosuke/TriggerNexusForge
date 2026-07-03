@@ -1,0 +1,57 @@
+/* ==========================================================================
+   tokens.css — デザイントークン
+   Brand.md のデザイン規定をCSS変数化したもの。
+   クライアント案件では :root の値だけを差し替えて使う。
+   ========================================================================== */
+
+:root {
+  /* --- カラー(Brand.md カラーパレット) --- */
+  --color-primary: #F25C05;        /* フォージオレンジ:CTA・アクセント(大面積使用は禁止) */
+  --color-secondary: #1B2A41;      /* スチールネイビー:見出し・ダーク背景 */
+  --color-base: #F7F5F2;           /* オフホワイト:背景 */
+  --color-text: #26282B;           /* チャコール:本文 */
+  --color-support: #FFB627;        /* エンバーイエロー:強調・バッジ */
+  --color-white: #FFFFFF;
+  --color-primary-dark: #C94A02;   /* プライマリのホバー用 */
+  --color-muted: #6B7280;          /* 補足テキスト */
+  --color-border: #E5E1DB;         /* 罫線 */
+
+  /* --- タイポグラフィ(Brand.md フォント規定) --- */
+  --font-heading: "Montserrat", "Noto Sans JP", sans-serif;
+  --font-body: "Inter", "Noto Sans JP", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --text-xs: 0.75rem;    /* 12px 注釈 */
+  --text-sm: 0.875rem;   /* 14px 補足 */
+  --text-base: 1rem;     /* 16px 本文 */
+  --text-lg: 1.125rem;   /* 18px リード文 */
+  --text-xl: 1.5rem;     /* 24px H3 */
+  --text-2xl: 2rem;      /* 32px H2 */
+  --text-3xl: 2.75rem;   /* 44px H1・キャッチ */
+
+  --leading-tight: 1.3;  /* 見出し用 */
+  --leading-body: 1.8;   /* 本文用(日本語に合わせ広め) */
+
+  /* --- スペーシング(8pxグリッド) --- */
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2rem;
+  --space-6: 3rem;
+  --space-8: 4rem;
+  --space-12: 6rem;
+
+  /* --- レイアウト --- */
+  --container-width: 1080px;
+  --container-narrow: 720px;
+
+  /* --- 装飾 --- */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-full: 9999px;
+  --shadow-card: 0 4px 16px rgba(27, 42, 65, 0.08);
+  --shadow-cta: 0 4px 12px rgba(242, 92, 5, 0.35);
+
+  /* --- トランジション --- */
+  --transition: 0.2s ease;
+}

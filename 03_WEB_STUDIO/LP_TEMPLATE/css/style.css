@@ -1,0 +1,125 @@
+/* ==========================================================================
+   style.css — LP固有スタイル
+   tokens.css / reset.css / components.css の後に読み込む。
+   ========================================================================== */
+
+/* --- FV(ファーストビュー) --- */
+
+.fv {
+  background: linear-gradient(135deg, var(--color-base) 60%, #EDE8E1 100%);
+  padding-block: var(--space-8);
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+}
+
+.fv__inner {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: var(--space-6);
+  align-items: center;
+}
+
+.fv__title {
+  font-size: var(--text-3xl);
+  margin-block: var(--space-2);
+}
+
+/* キャッチ内の強調語用(HTML側で <em> を使う) */
+.fv__title em {
+  font-style: normal;
+  color: var(--color-primary);
+}
+
+.fv__sub {
+  font-size: var(--text-lg);
+  margin-bottom: var(--space-3);
+}
+
+.fv__points {
+  margin-bottom: var(--space-4);
+}
+
+.fv__points li {
+  padding-left: 1.6em;
+  position: relative;
+  margin-bottom: var(--space-1);
+  font-weight: 500;
+}
+
+.fv__points li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
+/* --- 料金カード --- */
+
+.price-card {
+  text-align: center;
+  position: relative;
+}
+
+.price-card--featured {
+  border: 2px solid var(--color-primary);
+  transform: scale(1.03);
+}
+
+.price-card__price {
+  font-family: var(--font-heading);
+  font-size: var(--text-2xl);
+  color: var(--color-secondary);
+  margin-block: var(--space-2);
+}
+
+.price-card__price span {
+  font-size: var(--text-sm);
+  color: var(--color-muted);
+}
+
+.price-card__list {
+  text-align: left;
+}
+
+.price-card__list li {
+  padding-left: 1.4em;
+  position: relative;
+  margin-bottom: var(--space-1);
+  font-size: var(--text-sm);
+}
+
+.price-card__list li::before {
+  content: "・";
+  position: absolute;
+  left: 0;
+  color: var(--color-primary);
+}
+
+/* --- フッター --- */
+
+.site-footer {
+  padding-block: var(--space-6);
+  border-top: 1px solid var(--color-border);
+}
+
+/* --- レスポンシブ --- */
+
+@media (max-width: 768px) {
+  .fv {
+    min-height: auto;
+  }
+
+  .fv__inner {
+    grid-template-columns: 1fr;
+  }
+
+  .fv__visual {
+    order: -1; /* スマホでは画像を上に */
+  }
+
+  .price-card--featured {
+    transform: none;
+  }
+}
