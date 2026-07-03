@@ -10,3 +10,13 @@ Trigger Nexus Forge の経営・運営に関する情報を管理します。
 - 会社概要・ブランドガイドライン
 - 事業計画・売上目標
 - 社内ルール・ワークフロー定義
+
+## ファイル一覧
+
+| ファイル | 内容 |
+|---------|------|
+| [Vision.md](Vision.md) | 会社が目指す未来・実現したい世界 |
+| [Mission.md](Mission.md) | 使命・社名の意味・行動指針(Values) |
+| [Brand.md](Brand.md) | ブランドガイドライン(カラー・フォント・トーン&ボイス) |
+| [Roadmap.md](Roadmap.md) | 事業ロードマップ(Phase 1〜4 の成長計画) |
+| [CLAUDE.md](CLAUDE.md) | このリポジトリで働くAI社員への指示書 |
