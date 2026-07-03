@@ -18,11 +18,13 @@ Phase 1          Phase 2            Phase 3            Phase 4
 
 - [x] リポジトリのフォルダ構成を作成(00〜08)
 - [x] 経営ドキュメント整備(Vision / Mission / Brand / Roadmap)
-- [ ] AI社員の第1期メンバーを定義(→ `01_AI_EMPLOYEES`)
-  - [ ] ライターAI(コンテンツ制作担当)
-  - [ ] デザイナーAI(デザイン・サムネイル担当)
-  - [ ] エンジニアAI(Web制作担当)
-  - [ ] マーケターAI(企画・分析担当)
+- [x] AI社員の第1期メンバーを定義(→ `01_AI_EMPLOYEES`)
+  - [x] CEO_AI(経営参謀)
+  - [x] Sales_AI(営業)
+  - [x] Designer_AI(デザイナー)
+  - [x] Copywriter_AI(コピーライター)
+  - [x] SNS_AI(SNS運用)
+  - [x] Project_Manager_AI(プロジェクトマネージャー)
 - [ ] デザインシステムの初版を作成(→ `04_DESIGN_SYSTEM`)
 - [ ] 業務ワークフローの文書化(→ `08_DOCUMENTS`)
 
