@@ -1,0 +1,2 @@
+# TriggerNexusForge
+一人で10人分の仕事ができるAI制作会社OS
