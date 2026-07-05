@@ -55,6 +55,7 @@ TriggerNexusForge/
 ├── 02_CONTENT_FACTORY/  # ✍️ コンテンツ制作 — 1テーマ→10媒体のAI制作工場(Content Factory)
 ├── 03_WEB_STUDIO/       # 💻 Web制作 — LP/HTML/CSS/WordPress/業種別テンプレート
 ├── 04_DESIGN_SYSTEM/    # 🎨 デザインシステム — ブランド資産・デザイントークン
+├── 04_KNOWLEDGE_HUB/    # 🧠 知識ハブ — 全AI社員共通の知識ベース(20ドメイン)
 ├── 05_AUTOMATION/       # ⚙️ 自動化 — スクリプト・ワークフロー・定期実行タスク
 ├── 06_PRODUCTS/         # 📦 自社プロダクト — 販売する商品・テンプレート・教材
 ├── 07_CLIENTS/          # 🤝 クライアントワーク — 受注案件・提案書・納品物
@@ -71,6 +72,7 @@ TriggerNexusForge/
 | [`02_CONTENT_FACTORY`](02_CONTENT_FACTORY/) | コンテンツの量産工場 | 1テーマ→10媒体の生産ライン(ルール・入力・プロンプト・テンプレート・工程・検品・実例) |
 | [`03_WEB_STUDIO`](03_WEB_STUDIO/) | Web制作スタジオ | LPテンプレート、WordPressスターターテーマ、業種別の設計プレイブック |
 | [`04_DESIGN_SYSTEM`](04_DESIGN_SYSTEM/) | デザインの統一基準 | ブランドカラー・フォント・UIコンポーネント・サムネイルテンプレート |
+| [`04_KNOWLEDGE_HUB`](04_KNOWLEDGE_HUB/) | 会社の脳(全社知識ベース) | 20ドメイン×4ファイル(Knowledge/BestPractice/Checklist)。全AI社員が共通参照 |
 | [`05_AUTOMATION`](05_AUTOMATION/) | 生産性のエンジン | 自動化スクリプト、ワークフロー定義、定期実行タスク |
 | [`06_PRODUCTS`](06_PRODUCTS/) | 自社プロダクトの倉庫 | デジタルプロダクト、企画書、価格戦略、リリースノート |
 | [`07_CLIENTS`](07_CLIENTS/) | クライアント案件の管理 | 案件フォルダ(クライアント別)、提案書、納品物アーカイブ |
