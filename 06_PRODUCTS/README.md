@@ -34,7 +34,7 @@
 
 | 製品 | 一言 | 元になった社内資産 | 状態 |
 |------|------|-------------------|:---:|
-| [01_LP_BUILDER](01_LP_BUILDER/) | 入力3項目からLPの構成・コピー・実装まで | `03_WEB_STUDIO` + `02_PROMPTS/LP.md` | 開発中 |
+| [01_LP_BUILDER](01_LP_BUILDER/) | **TNF LP Builder** — 業種入力だけでLP一式を生成 | `03_WEB_STUDIO` + `02_PROMPTS/LP.md` | **v0.1 MVP** |
 | [02_CONTENT_FACTORY_PRO](02_CONTENT_FACTORY_PRO/) | 1テーマ→10媒体のコンテンツ工場・汎用版 | `02_CONTENT_FACTORY` 一式 | 開発中 |
 | [03_PROPOSAL_BUILDER](03_PROPOSAL_BUILDER/) | ヒアリング→提案書・見積書を生成 | `Sales_AI` + `05_AUTOMATION/01〜02` | 開発中 |
 | [04_DESIGN_REVIEW_AI](04_DESIGN_REVIEW_AI/) | デザイン・LPを基準でレビューするAI | `Designer_AI` + 各チェックリスト | 開発中 |

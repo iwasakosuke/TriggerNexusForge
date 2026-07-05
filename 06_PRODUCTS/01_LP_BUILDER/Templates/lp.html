@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- TNF LP Builder v0.1 — STAGE 6 の出力をこのプレースホルダに流し込む -->
+  <title>{{キャッチコピー}}|{{店名・社名}}</title>
+  <meta name="description" content="{{メタディスクリプション(120字)}}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{キャッチコピー}}|{{店名・社名}}">
+  <meta property="og:description" content="{{メタディスクリプション}}">
+  <meta property="og:image" content="{{OGP画像URL(1200x630)}}">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 1. FV -->
+  <header class="fv">
+    <div class="container">
+      <p class="fv__badge">{{ターゲット呼びかけ}}</p>
+      <h1 class="fv__title">{{キャッチコピー}}</h1>
+      <p class="fv__sub">{{サブコピー}}</p>
+      <ul class="fv__points">
+        <li>{{安心要素1}}</li>
+        <li>{{安心要素2}}</li>
+        <li>{{安心要素3}}</li>
+      </ul>
+      <a href="#cta" class="btn">{{CTAボタン文言}}</a>
+      <p class="micro">{{CTA不安解消マイクロコピー}}</p>
+    </div>
+  </header>
+
+  <!-- 2. 課題共感 -->
+  <section class="section">
+    <div class="container">
+      <h2>{{課題セクション見出し}}</h2>
+      <ul class="problems">
+        <li>{{悩み1}}</li>
+        <li>{{悩み2}}</li>
+        <li>{{悩み3}}</li>
+      </ul>
+      <p class="bridge">{{共感の一言+解決へのブリッジ}}</p>
+    </div>
+  </section>
+
+  <!-- 3. 解決策 -->
+  <section class="section section--dark">
+    <div class="container">
+      <h2>{{解決策見出し}}</h2>
+      <p>{{オファーの説明(何を・どうやって)}}</p>
+    </div>
+  </section>
+
+  <!-- 4. ベネフィット -->
+  <section class="section">
+    <div class="container">
+      <h2>{{ベネフィット見出し}}</h2>
+      <div class="cards">
+        <div class="card"><h3>{{ベネフィット1見出し}}</h3><p>{{Before→Afterの変化}}</p></div>
+        <div class="card"><h3>{{ベネフィット2見出し}}</h3><p>{{変化}}</p></div>
+        <div class="card"><h3>{{ベネフィット3見出し}}</h3><p>{{変化}}</p></div>
+      </div>
+      <p class="center"><a href="#cta" class="btn">{{CTAボタン文言}}</a></p>
+    </div>
+  </section>
+
+  <!-- 5. 実績・お客様の声 -->
+  <section class="section">
+    <div class="container">
+      <h2>{{実績・声セクション見出し}}</h2>
+      <div class="cards">
+        <div class="card voice"><p>「{{お客様の声1(事実のみ)}}」</p><p class="muted">{{属性}}</p></div>
+        <div class="card voice"><p>「{{お客様の声2}}」</p><p class="muted">{{属性}}</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. 料金 -->
+  <section class="section">
+    <div class="container">
+      <h2>{{料金セクション見出し}}</h2>
+      <div class="cards">
+        <div class="card price"><h3>{{プラン1}}</h3><p class="price__num">{{金額}}<span>円(税込)</span></p><p>{{内容}}</p></div>
+        <div class="card price price--featured"><p class="tag">おすすめ</p><h3>{{プラン2}}</h3><p class="price__num">{{金額}}<span>円(税込)</span></p><p>{{内容}}</p></div>
+        <div class="card price"><h3>{{プラン3}}</h3><p class="price__num">{{金額}}<span>円(税込)</span></p><p>{{内容}}</p></div>
+      </div>
+      <p class="muted center">{{料金注記(追加費用の条件など)}}</p>
+    </div>
+  </section>
+
+  <!-- 7. FAQ -->
+  <section class="section">
+    <div class="container narrow">
+      <h2>よくあるご質問</h2>
+      <details><summary>{{質問1}}</summary><p>{{回答1}}</p></details>
+      <details><summary>{{質問2}}</summary><p>{{回答2}}</p></details>
+      <details><summary>{{質問3}}</summary><p>{{回答3}}</p></details>
+      <details><summary>{{質問4}}</summary><p>{{回答4}}</p></details>
+      <details><summary>{{質問5}}</summary><p>{{回答5}}</p></details>
+    </div>
+  </section>
+
+  <!-- 8. 最終CTA -->
+  <section class="section section--dark" id="cta">
+    <div class="container center">
+      <h2>{{最終CTA見出し}}</h2>
+      <p>{{最後の一押し}}</p>
+      <p><a href="{{フォームURL}}" class="btn btn--lg">{{CTAボタン文言}}</a></p>
+      <p class="micro">{{不安の最終解消1行}}</p>
+      <p class="tel">{{電話導線(必要な業種のみ):TEL 00-0000-0000}}</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container center muted">
+      <p><a href="{{特商法/会社概要URL}}">{{特定商取引法に基づく表記 or 会社概要}}</a></p>
+      <p>&copy; 2026 {{店名・社名}}</p>
+    </div>
+  </footer>
+
+</body>
+</html>
