@@ -1,4 +1,4 @@
-# 04_KNOWLEDGE_HUB — 全社知識ベース
+# 09_KNOWLEDGE_HUB — 全社知識ベース
 
 <!-- Trigger Nexus Forge の全AI社員が共通利用する知識ハブ。「会社の脳」にあたる -->
 
@@ -50,7 +50,7 @@
 ## 他フォルダとの関係
 
 ```
-04_KNOWLEDGE_HUB(全社共通の知識)← ここ
+09_KNOWLEDGE_HUB(全社共通の知識)← ここ
 ├─ 00_COMPANY/          … 経営の正典(Vision/Mission/Brand/Roadmap)。ハブより上位
 ├─ 01_AI_EMPLOYEES/     … 各AIの Knowledge.md はハブの該当ドメインを参照する
 ├─ 02_CONTENT_FACTORY/06_KNOWLEDGE/ … コンテンツ制作に特化した実務知識(ハブより現場寄り)
