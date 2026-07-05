@@ -67,7 +67,7 @@ TriggerNexusForge/
 | フォルダ | 役割 | 主なコンテンツ |
 |---------|------|--------------|
 | [`00_COMPANY`](00_COMPANY/) | 会社の中枢。すべての判断の拠り所 | Vision / Mission / Brand / Roadmap / CLAUDE.md(AIへの指示書) |
-| [`01_AI_EMPLOYEES`](01_AI_EMPLOYEES/) | AI社員の人事部 | CEO_AI・Sales_AI・Designer_AI・Copywriter_AI・SNS_AI・Project_Manager_AI の定義 |
+| [`01_AI_EMPLOYEES`](01_AI_EMPLOYEES/) | AI社員の人事部 | CEO_AI・Sales_AI・Designer_AI・Copywriter_AI・SNS_AI・PM_AI(各5ファイル構成)の定義 |
 | [`02_CONTENT_FACTORY`](02_CONTENT_FACTORY/) | コンテンツの量産工場 | 6媒体×20本の生成プロンプト集、原稿、コンテンツカレンダー |
 | [`03_WEB_STUDIO`](03_WEB_STUDIO/) | Web制作スタジオ | LPテンプレート、WordPressスターターテーマ、業種別の設計プレイブック |
 | [`04_DESIGN_SYSTEM`](04_DESIGN_SYSTEM/) | デザインの統一基準 | ブランドカラー・フォント・UIコンポーネント・サムネイルテンプレート |
@@ -110,7 +110,7 @@ TriggerNexusForge/
 |------|------|-----|
 | トップレベルフォルダ | `番号_大文字スネークケース` | `02_CONTENT_FACTORY` |
 | テンプレートフォルダ | `大文字スネークケース` | `LP_TEMPLATE`, `INDUSTRY_TEMPLATES` |
-| AI社員定義 | `役職_AI.md`(パスカルケース) | `Project_Manager_AI.md` |
+| AI社員定義 | `役職_AI/` フォルダ+5ファイル(Identity/Knowledge/Workflow/Prompt/Rules) | `PM_AI/Identity.md` |
 | 経営文書 | パスカルケース | `Vision.md`, `Roadmap.md` |
 | 業種・汎用ドキュメント | 小文字スネークケース | `beauty_salon.md`, `online_school.md` |
 | コード(CSS/JS/PHP) | 小文字ケバブケース+英語 | `tokens.css`, `front-page.php` |

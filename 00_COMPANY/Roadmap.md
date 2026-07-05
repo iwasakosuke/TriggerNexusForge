@@ -18,7 +18,7 @@
 | 2029 | モデル確立 | 2,000万円 | 15名 | 6 : 4 |
 | 2030 | ロールモデル完成 | 3,000万円 | 20名 | 5 : 5 |
 
-※売上は税別・単年。AI社員数は定義済みエージェント数(`01_AI_EMPLOYEES` のファイル数)
+※売上は税別・単年。AI社員数は定義済みエージェント数(`01_AI_EMPLOYEES` の社員フォルダ数)
 
 ---
 
@@ -49,7 +49,7 @@
 
 ### AI社員(6名)
 
-CEO_AI / Sales_AI / Designer_AI / Copywriter_AI / SNS_AI / Project_Manager_AI(定義済み)
+CEO_AI / Sales_AI / Designer_AI / Copywriter_AI / SNS_AI / PM_AI(定義済み)
 
 ### 開発するサービス
 
