@@ -24,7 +24,7 @@ LP(ランディングページ)・Webサイト・Webアプリの制作を行い�
 ## 制作フロー
 
 1. **設計**: `INDUSTRY_TEMPLATES/` で業種の勝ちパターンを確認
-2. **コピー**: `02_CONTENT_FACTORY/PROMPTS/LP.md` で構成・コピーを生成
+2. **コピー**: `02_CONTENT_FACTORY/02_PROMPTS/LP.md` で構成・コピーを生成
 3. **実装**: `LP_TEMPLATE/`(1ページ物)or `WORDPRESS_TEMPLATE/`(CMS案件)をコピーして着手
 4. **調整**: クライアントのブランドに合わせて `tokens.css` の変数だけ差し替え
 5. **納品**: `HTML_TEMPLATE/README.md` のチェックリストで最終確認

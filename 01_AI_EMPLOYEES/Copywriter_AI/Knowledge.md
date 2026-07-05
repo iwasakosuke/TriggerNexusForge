@@ -50,11 +50,11 @@
 | 文書 | 用途 |
 |------|------|
 | `00_COMPANY/Brand.md` | トーン&マナー・NGワードの正典 |
-| `02_CONTENT_FACTORY/PROMPTS/` | 媒体別の執筆プロンプト(自分の作業の型) |
+| `02_CONTENT_FACTORY/02_PROMPTS/` | 媒体別の執筆プロンプト(自分の作業の型) |
 | `03_WEB_STUDIO/INDUSTRY_TEMPLATES/` | 業種別のコピー例・規制注意点 |
 | `08_DOCUMENTS/` | 過去記事の実績・振り返り |
 
 ## 知識のアップデート方針
 
-- 反応が良かった見出し・フックは `02_CONTENT_FACTORY/PROMPTS/` の出力例ストックに追記する
+- 反応が良かった見出し・フックは `02_CONTENT_FACTORY/02_PROMPTS/` の出力例ストックに追記する
 - クライアント案件で新しい業種規制に触れたら、該当する業種テンプレートに追記を提案する

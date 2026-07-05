@@ -52,7 +52,7 @@
 TriggerNexusForge/
 ├── 00_COMPANY/          # 🏢 会社運営 — 経営文書(Vision/Mission/Brand/Roadmap/CLAUDE.md)
 ├── 01_AI_EMPLOYEES/     # 🤖 AI社員 — 6名のエージェント定義(役割・口調・出力テンプレート)
-├── 02_CONTENT_FACTORY/  # ✍️ コンテンツ制作 — 媒体別プロンプト集(note/Threads/Instagram/X/Blog/LP)
+├── 02_CONTENT_FACTORY/  # ✍️ コンテンツ制作 — 1テーマ→10媒体のAI制作工場(Content Factory)
 ├── 03_WEB_STUDIO/       # 💻 Web制作 — LP/HTML/CSS/WordPress/業種別テンプレート
 ├── 04_DESIGN_SYSTEM/    # 🎨 デザインシステム — ブランド資産・デザイントークン
 ├── 05_AUTOMATION/       # ⚙️ 自動化 — スクリプト・ワークフロー・定期実行タスク
@@ -68,7 +68,7 @@ TriggerNexusForge/
 |---------|------|--------------|
 | [`00_COMPANY`](00_COMPANY/) | 会社の中枢。すべての判断の拠り所 | Vision / Mission / Brand / Roadmap / CLAUDE.md(AIへの指示書) |
 | [`01_AI_EMPLOYEES`](01_AI_EMPLOYEES/) | AI社員の人事部 | CEO_AI・Sales_AI・Designer_AI・Copywriter_AI・SNS_AI・PM_AI(各5ファイル構成)の定義 |
-| [`02_CONTENT_FACTORY`](02_CONTENT_FACTORY/) | コンテンツの量産工場 | 6媒体×20本の生成プロンプト集、原稿、コンテンツカレンダー |
+| [`02_CONTENT_FACTORY`](02_CONTENT_FACTORY/) | コンテンツの量産工場 | 1テーマ→10媒体の生産ライン(ルール・入力・プロンプト・テンプレート・工程・検品・実例) |
 | [`03_WEB_STUDIO`](03_WEB_STUDIO/) | Web制作スタジオ | LPテンプレート、WordPressスターターテーマ、業種別の設計プレイブック |
 | [`04_DESIGN_SYSTEM`](04_DESIGN_SYSTEM/) | デザインの統一基準 | ブランドカラー・フォント・UIコンポーネント・サムネイルテンプレート |
 | [`05_AUTOMATION`](05_AUTOMATION/) | 生産性のエンジン | 自動化スクリプト、ワークフロー定義、定期実行タスク |

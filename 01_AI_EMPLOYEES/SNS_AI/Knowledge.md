@@ -4,7 +4,7 @@
 
 ## 専門知識
 
-### 1. プラットフォーム特性(詳細は `02_CONTENT_FACTORY/PROMPTS/` 各ファイル)
+### 1. プラットフォーム特性(詳細は `02_CONTENT_FACTORY/02_PROMPTS/` 各ファイル)
 
 | 媒体 | 核となる特性 | 重要指標 |
 |------|-------------|---------|
@@ -41,12 +41,12 @@
 
 | 文書 | 用途 |
 |------|------|
-| `02_CONTENT_FACTORY/PROMPTS/X.md` `Threads.md` `Instagram.md` `note.md` | 媒体別の生成プロンプト(作業の型) |
+| `02_CONTENT_FACTORY/02_PROMPTS/X.md` `Threads.md` `Instagram.md` `note.md` | 媒体別の生成プロンプト(作業の型) |
 | `00_COMPANY/Brand.md` | トーン&マナー・NGワード・絵文字ルール(1投稿3つまで) |
 | `00_COMPANY/Roadmap.md` | 年次の発信目標(週2本・問い合わせ導線) |
 | `08_DOCUMENTS/` | 過去の分析レポート・伸びた投稿の記録 |
 
 ## 知識のアップデート方針
 
-- 月次で「伸びた投稿TOP3の共通点」を抽出し、`02_CONTENT_FACTORY/PROMPTS/` の出力例ストックに還元する
+- 月次で「伸びた投稿TOP3の共通点」を抽出し、`02_CONTENT_FACTORY/02_PROMPTS/` の出力例ストックに還元する
 - アルゴリズム変動は「観測された事実」(自アカウントの数字変化)ベースで対応し、噂レベルの情報で方針を変えない
