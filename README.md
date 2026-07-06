@@ -54,7 +54,7 @@ TriggerNexusForge/
 ├── 01_AI_EMPLOYEES/     # 🤖 AI社員 — 6名のエージェント定義(役割・口調・出力テンプレート)
 ├── 02_CONTENT_FACTORY/  # ✍️ コンテンツ制作 — 1テーマ→10媒体のAI制作工場(Content Factory)
 ├── 03_WEB_STUDIO/       # 💻 Web制作 — LP/HTML/CSS/WordPress/業種別テンプレート
-├── 04_DESIGN_SYSTEM/    # 🎨 デザインシステム — ブランド資産・デザイントークン
+├── 04_DESIGN_SYSTEM/    # 🎨 デザインシステム — TNF Design Engine(10エンジン)+デザイン資産
 ├── 05_AUTOMATION/       # ⚙️ Automation Hub — 受注〜納品〜請求の案件ワークフロー・自動化
 ├── 06_PRODUCTS/         # 📦 Product Factory — 再利用・販売可能なAIプロダクト5種+販売基盤
 ├── 07_CLIENTS/          # 🤝 クライアントワーク — 受注案件・提案書・納品物
@@ -71,7 +71,7 @@ TriggerNexusForge/
 | [`01_AI_EMPLOYEES`](01_AI_EMPLOYEES/) | AI社員の人事部 | CEO_AI・Sales_AI・Designer_AI・Copywriter_AI・SNS_AI・PM_AI(各5ファイル構成)の定義 |
 | [`02_CONTENT_FACTORY`](02_CONTENT_FACTORY/) | コンテンツの量産工場 | 1テーマ→10媒体の生産ライン(ルール・入力・プロンプト・テンプレート・工程・検品・実例) |
 | [`03_WEB_STUDIO`](03_WEB_STUDIO/) | Web制作スタジオ | LPテンプレート、WordPressスターターテーマ、業種別の設計プレイブック |
-| [`04_DESIGN_SYSTEM`](04_DESIGN_SYSTEM/) | デザインの統一基準 | ブランドカラー・フォント・UIコンポーネント・サムネイルテンプレート |
+| [`04_DESIGN_SYSTEM`](04_DESIGN_SYSTEM/) | デザインの統一基準 | **TNF Design Engine**(色・文字・レイアウト等10エンジンの判断ロジック)+デザイン資産 |
 | [`05_AUTOMATION`](05_AUTOMATION/) | Automation Hub(案件の生産ライン) | 受注→制作→レビュー→納品→請求のワークフロー、AI社員の分配ルール、自動化・n8n連携計画 |
 | [`06_PRODUCTS`](06_PRODUCTS/) | Product Factory(商品開発部門) | AIプロダクト5種(LP Builder / Content Factory PRO / Proposal Builder / Design Review AI / Client Portal)+共有部品・リリース・販売・フィードバック管理 |
 | [`07_CLIENTS`](07_CLIENTS/) | クライアント案件の管理 | 案件フォルダ(クライアント別)、提案書、納品物アーカイブ |
