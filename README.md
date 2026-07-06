@@ -60,6 +60,8 @@ TriggerNexusForge/
 ├── 07_CLIENTS/          # 🤝 クライアントワーク — 受注案件・提案書・納品物
 ├── 08_DOCUMENTS/        # 📚 ドキュメント — マニュアル・ナレッジ・議事録
 ├── 09_KNOWLEDGE_HUB/    # 🧠 知識ハブ — 全AI社員共通の知識ベース(20ドメイン)
+├── 10_TNF_PLAYBOOK/     # 📖 DNA① — 会社運営の完全手順書(13章。AI置換手順まで)
+├── 11_TNF_CORE_PROMPTS/ # 🧬 DNA② — AI非依存の中核プロンプト(8本+会社設定)
 └── README.md            # このファイル
 ```
 
@@ -77,6 +79,8 @@ TriggerNexusForge/
 | [`07_CLIENTS`](07_CLIENTS/) | クライアント案件の管理 | 案件フォルダ(クライアント別)、提案書、納品物アーカイブ |
 | [`08_DOCUMENTS`](08_DOCUMENTS/) | 個別の記録 | 業務マニュアル、議事録、調査資料、振り返り記録 |
 | [`09_KNOWLEDGE_HUB`](09_KNOWLEDGE_HUB/) | 会社の脳(全社知識ベース) | 20ドメイン×4ファイル(Knowledge/BestPractice/Checklist)。全AI社員が共通参照 |
+| [`10_TNF_PLAYBOOK`](10_TNF_PLAYBOOK/) | **会社のDNA①(運営手順書)** | 会社運営・AI社員・Git/GitHub・レビュー・開発・営業・制作・デザイン・プロダクト・ブランド・セキュリティ・**AI置換手順**の13章 |
+| [`11_TNF_CORE_PROMPTS`](11_TNF_CORE_PROMPTS/) | **会社のDNA②(中核プロンプト)** | AI非依存・再利用・販売可能な中核プロンプト8本+会社設定(差し替えで他社にも移植可能) |
 
 各フォルダの詳細ルールは、フォルダ内の `README.md` に記載しています。
 
