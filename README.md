@@ -62,6 +62,7 @@ TriggerNexusForge/
 ├── 09_KNOWLEDGE_HUB/    # 🧠 知識ハブ — 全AI社員共通の知識ベース(20ドメイン)
 ├── 10_TNF_PLAYBOOK/     # 📖 DNA① — 会社運営の完全手順書(13章。AI置換手順まで)
 ├── 11_TNF_CORE_PROMPTS/ # 🧬 DNA② — AI非依存の中核プロンプト(8本+会社設定)
+├── 12_OPERATING_SYSTEM/ # 🕙 運営OS — 毎朝10時の起点(30日スプリント・ルーティン)
 └── README.md            # このファイル
 ```
 
@@ -81,6 +82,7 @@ TriggerNexusForge/
 | [`09_KNOWLEDGE_HUB`](09_KNOWLEDGE_HUB/) | 会社の脳(全社知識ベース) | 20ドメイン×4ファイル(Knowledge/BestPractice/Checklist)。全AI社員が共通参照 |
 | [`10_TNF_PLAYBOOK`](10_TNF_PLAYBOOK/) | **会社のDNA①(運営手順書)** | 会社運営・AI社員・Git/GitHub・レビュー・開発・営業・制作・デザイン・プロダクト・ブランド・セキュリティ・**AI置換手順**の13章 |
 | [`11_TNF_CORE_PROMPTS`](11_TNF_CORE_PROMPTS/) | **会社のDNA②(中核プロンプト)** | AI非依存・再利用・販売可能な中核プロンプト8本+会社設定(差し替えで他社にも移植可能) |
+| [`12_OPERATING_SYSTEM`](12_OPERATING_SYSTEM/) | 運営OS(毎日の実行装置) | START_HERE(毎朝10時の起点)・Day01〜30スプリント・日次ルーティン・GitHub運用ルール・CHANGELOG |
 
 各フォルダの詳細ルールは、フォルダ内の `README.md` に記載しています。
 
