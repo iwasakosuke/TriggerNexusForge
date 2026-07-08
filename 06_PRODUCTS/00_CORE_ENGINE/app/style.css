@@ -1,23 +1,29 @@
 /* ==========================================================================
-   TNF Core Engine — アプリUI(TNF標準テーマ準拠:Brand.md / tokens.css)
+   TNF Core Engine — アプリUI
+   TNF標準テーマ(Brand.md / tokens.css)準拠 + UI/UX Pro Max: Flat Design system
    ========================================================================== */
 
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
 :root {
-  --primary: #F25C05;
-  --primary-dark: #C94A02;
+  --primary: #F25C05;        /* ブランドアクセント(非テキスト・大文字用途のみ) */
+  --primary-dark: #C94A02;   /* 白文字コントラスト4.70:1 — CTA既定色 */
+  --primary-darker: #B84400; /* hover/active — 5.43:1 */
   --secondary: #1B2A41;
   --base: #F7F5F2;
   --text: #26282B;
-  --muted: #6B7280;
-  --border: #E5E1DB;
+  --muted: #5B6472;          /* base比5.50:1 / 白比5.98:1(旧#6B7280は4.44:1でAA未達) */
+  --border: #E5E1DB;         /* 装飾的な区切り線 */
+  --border-strong: #9F9280;  /* 入力欄など機能的な境界線(白比3.04:1) */
   --white: #FFFFFF;
   --radius: 12px;
+  --font-ui: 'Plus Jakarta Sans', "Hiragino Sans", "Noto Sans JP", "Yu Gothic", sans-serif;
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
-  font-family: "Hiragino Sans", "Noto Sans JP", "Yu Gothic", sans-serif;
+  font-family: var(--font-ui);
   background: var(--base);
   color: var(--text);
   line-height: 1.8;
@@ -27,6 +33,24 @@ body {
 .wrap { max-width: 960px; margin-inline: auto; padding-inline: 20px; }
 .hidden { display: none !important; }
 
+/* --- スキップリンク(キーボード操作者向け) --- */
+.skip-link {
+  position: absolute; left: 12px; top: -60px;
+  background: var(--secondary); color: var(--white);
+  padding: 10px 18px; border-radius: 8px; font-weight: 700;
+  z-index: 50; transition: top 150ms ease;
+}
+.skip-link:focus { top: 12px; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
 /* --- ヘッダー --- */
 .app-header {
   background: var(--secondary);
@@ -34,10 +58,14 @@ body {
   padding: 28px 0;
   margin-bottom: 32px;
 }
-.app-header h1 { font-size: 1.4rem; }
+.app-header h1 {
+  font-size: 1.4rem; font-weight: 800; letter-spacing: -0.01em;
+  display: flex; align-items: center; gap: 10px;
+}
+.app-header .icon-mark { color: var(--primary); flex-shrink: 0; }
 .ver {
-  font-size: 0.7rem; background: var(--primary); color: var(--white);
-  padding: 2px 10px; border-radius: 999px; vertical-align: middle; margin-left: 8px;
+  font-size: 0.7rem; background: var(--primary-dark); color: var(--white);
+  padding: 2px 10px; border-radius: 999px; vertical-align: middle; margin-left: 4px;
 }
 .tagline { font-size: 0.875rem; opacity: 0.85; margin-top: 4px; }
 
@@ -46,7 +74,7 @@ body {
   background: var(--white);
   border-radius: var(--radius);
   padding: 28px;
-  box-shadow: 0 4px 16px rgb(27 42 65 / 0.08);
+  border: 1px solid var(--border);
   margin-bottom: 28px;
 }
 .panel h2 { color: var(--secondary); font-size: 1.1rem; margin-bottom: 18px; }
@@ -55,27 +83,29 @@ body {
 .form-grid { display: grid; gap: 18px; }
 .field label { display: block; font-weight: 700; font-size: 0.9rem; margin-bottom: 6px; }
 .req {
-  font-size: 0.7rem; color: var(--white); background: var(--primary);
+  font-size: 0.7rem; color: var(--white); background: var(--primary-dark);
   padding: 1px 8px; border-radius: 999px; margin-left: 6px; vertical-align: middle;
 }
 .field input, .field select {
   width: 100%; font: inherit; padding: 12px 14px;
-  border: 1px solid var(--border); border-radius: 8px; background: var(--white);
+  border: 1.5px solid var(--border-strong); border-radius: 8px; background: var(--base);
+  transition: background-color 150ms ease, border-color 150ms ease;
 }
 .field input:focus-visible, .field select:focus-visible,
 button:focus-visible { outline: 3px solid #FFB627; outline-offset: 2px; }
+.field input:focus, .field select:focus { background: var(--white); }
 .hint { font-size: 0.78rem; color: var(--muted); margin-top: 4px; }
 
 .actions { display: flex; align-items: center; gap: 16px; margin-top: 22px; }
 .btn-primary {
   font: inherit; font-weight: 700; cursor: pointer;
-  background: var(--primary); color: var(--white);
+  background: var(--primary-dark); color: var(--white);
   border: none; border-radius: 999px; padding: 14px 44px;
-  box-shadow: 0 4px 12px rgb(242 92 5 / 0.35);
-  transition: transform 0.2s ease, background 0.2s ease;
+  transition: background-color 200ms ease;
   min-height: 44px;
 }
-.btn-primary:hover { background: var(--primary-dark); transform: translateY(-2px); }
+.btn-primary:hover { background: var(--primary-darker); }
+.btn-primary:disabled { background: var(--border-strong); color: var(--white); cursor: not-allowed; opacity: 0.7; }
 .status { font-size: 0.85rem; color: var(--muted); }
 .status.error { color: #D64545; font-weight: 700; }
 
@@ -85,8 +115,10 @@ button:focus-visible { outline: 3px solid #FFB627; outline-offset: 2px; }
   font: inherit; font-size: 0.9rem; font-weight: 700; cursor: pointer;
   background: none; border: none; color: var(--muted);
   padding: 10px 16px; border-bottom: 3px solid transparent; margin-bottom: -2px;
+  transition: color 150ms ease, border-color 150ms ease;
   min-height: 44px;
 }
+.tab:hover { color: var(--secondary); }
 .tab.active { color: var(--secondary); border-bottom-color: var(--primary); }
 
 /* --- 結果表示 --- */
@@ -119,6 +151,7 @@ th { color: var(--secondary); background: var(--base); white-space: nowrap; }
   background: var(--white); color: var(--secondary);
   border: 1.5px solid var(--secondary); border-radius: 999px; padding: 8px 18px;
   min-height: 40px;
+  transition: background-color 150ms ease, color 150ms ease;
 }
 .btn-sub:hover { background: var(--secondary); color: var(--white); }
 pre {
@@ -130,7 +163,7 @@ code { font-family: "SF Mono", Consolas, Menlo, monospace; }
 
 /* --- プレビュー --- */
 #preview-frame {
-  width: 100%; height: 640px; border: 1px solid var(--border);
+  width: 100%; height: 640px; border: 1px solid var(--border-strong);
   border-radius: 8px; background: var(--white);
 }
 

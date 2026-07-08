@@ -123,6 +123,7 @@
   // --- Generate ---
 
   $("#generate").addEventListener("click", () => {
+    const btn = $("#generate");
     const status = $("#status");
     status.classList.remove("error");
     const input = {
@@ -130,8 +131,9 @@
       target: $("#target").value,
       goal: $("#goal").value
     };
+    btn.disabled = true;
+    status.textContent = "生成中…";
     try {
-      status.textContent = "生成中…";
       result = TNFEngine.generate(input);
       renderUsp(result);
       renderCatch(result);
@@ -139,10 +141,13 @@
       renderCode(result);
       $("#result-panel").classList.remove("hidden");
       status.textContent = `生成完了(${result.meta.matchedPreset})`;
-      $("#result-panel").scrollIntoView({ behavior: "smooth" });
+      const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      $("#result-panel").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth" });
     } catch (e) {
       status.textContent = e.message;
       status.classList.add("error");
+    } finally {
+      btn.disabled = false;
     }
   });
 })();
