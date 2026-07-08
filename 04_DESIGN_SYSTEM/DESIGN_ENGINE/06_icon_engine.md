@@ -18,6 +18,7 @@
 | 角 | 丸め(rounded)。トゲトゲしいアイコンは世界観に合わない |
 | 色 | 単色のみ。text色 or secondary。強調時のみ primary |
 | 多色・グラデ | 禁止(イラストの領域になり、統一が崩れる) |
+| 絵文字 | **禁止**(🔥🚀⚙️等をUIアイコン代わりに使わない。必ずSVGに置き換える) |
 
 ## サイズシステム
 
@@ -54,3 +55,5 @@ icons:
   style: { type: line, stroke: 2, corner: rounded, color: text }
   usage: [{ concept: 電話, icon: phone, size: md }]
 ```
+
+概念からアイコンセットを探す場合は `09_KNOWLEDGE_HUB/02_UI_UX/REFERENCE/IconSets.md` を参照する。

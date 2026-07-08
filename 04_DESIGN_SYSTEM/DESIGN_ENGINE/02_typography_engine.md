@@ -52,6 +52,12 @@ typography:
   adjustments: "(媒体・読者による補正内容)"
 ```
 
+## 標準以外の書体が必要な場合
+
+トーン(高級・親しみやすい・テック系等)がTNF標準(Montserrat×Inter)に合わない場合、
+`09_KNOWLEDGE_HUB/01_DESIGN/REFERENCE/FontPairings.md`(57案)から近いムードのペアリングを探す。
+ただし和文本文はNoto Sans JP維持が原則(→ 上表の差し替え規則)。
+
 ## 禁止
 
 - 4段以上のウェイト / 1つの制作物に3書体以上 / 12px未満の本文

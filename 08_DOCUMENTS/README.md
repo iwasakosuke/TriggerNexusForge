@@ -10,3 +10,10 @@
 - ナレッジベース(ノウハウ・Tips の蓄積)
 - 議事録・意思決定の記録
 - 調査資料・リサーチメモ
+
+## サブフォルダ
+
+| フォルダ | 内容 |
+|---------|------|
+| [daily/](daily/) | 日報(`YYYY-MM-DD.md`。テンプレート:`12_OPERATING_SYSTEM/TEMPLATES/DAILY_REPORT_TEMPLATE.md`) |
+| [reports/](reports/) | 単発の統合・調査レポート(外部ツール導入時の統合作業記録など) |

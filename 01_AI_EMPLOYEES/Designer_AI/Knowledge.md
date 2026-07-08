@@ -50,6 +50,9 @@
 | `03_WEB_STUDIO/CSS_TEMPLATE/tokens.css` | 実装トークン(Brand.mdと同期) |
 | `03_WEB_STUDIO/INDUSTRY_TEMPLATES/` | 業種別のデザイントーン指針 |
 | `04_DESIGN_SYSTEM/` | テンプレート・素材・コンポーネント |
+| `04_DESIGN_SYSTEM/DESIGN_ENGINE/` | デザイン判断ロジック(色・タイポ・レイアウト等10エンジン) |
+| `09_KNOWLEDGE_HUB/01_DESIGN/` `02_UI_UX/` | デザイン・UX原則の学習用知識(Knowledge/BestPractice/Checklist) |
+| `09_KNOWLEDGE_HUB/01_DESIGN/REFERENCE/` `02_UI_UX/REFERENCE/` | 詳細カタログ(色96案・スタイル67種・フォント57案・UXルール99件等) |
 
 ## 知識のアップデート方針
 
