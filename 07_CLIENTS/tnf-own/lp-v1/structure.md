@@ -35,3 +35,14 @@ persona.consideration = **中〜高**(すでに1回外注で失敗し、比較�
 ---
 
 **この構成で進めてよいですか?(修正があればどうぞ)**
+
+## 承認
+
+```yaml
+project:
+  structure:
+    approved: true
+    approved_at: "2026-07-08"
+    approved_by: owner
+```
+
