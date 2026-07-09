@@ -5,6 +5,7 @@
 | ファイル | 業種 | 内容 |
 |---------|------|------|
 | [example_seitai.md](example_seitai.md) | 整体院 | 業種名だけを入力した場合のフル実行例(STAGE 0〜7 抜粋) |
+| [pet_grooming/](pet_grooming/) | ペットグルーミングサロン | ui-ux-pro-maxでデザインシステムを決めてから作った完成HTML例(遊び心・親しみやすさ重視、Claymorphismスタイル) |
 
 ## 実行例の読み方
 
