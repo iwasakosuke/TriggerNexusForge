@@ -11,7 +11,7 @@
   /* ▼ 以下は原則そのまま */
   --color-text: #26282B;
   --color-white: #FFFFFF;
-  --color-muted: #5B6472;     /* 2026-07-08修正:旧#6B7280は白背景比4.44:1でAA未達(→Design Engine 01_color_engine.md参照) */
+  --color-muted: #5B6472;     /* 2026-07-09修正:旧#6B7280は白背景比4.44:1でAA未達(→Design Engine 01_color_engine.md参照) */
   --color-border: #E5E1DB;
   --radius: 12px;
   --container: 1000px;
