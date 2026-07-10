@@ -13,9 +13,9 @@
 | 02 ペルソナ | `persona.md` | ✅ 完了(採用:鈴木美穂/美容室オーナー) |
 | 03 USP | `usp.md` | ✅ 完了 |
 | 04 構成(★承認ゲート) | `structure.md` | ✅ オーナー承認済み(2026-07-08) |
-| 05 セクションコピー(★キャッチ選定) | `section_copy.md` | ✅ 完了(採用:候補3「一度、外注で失敗した経営者の方へ。」) |
-| 06 CTA | `cta.md` | ✅ 完了 |
-| 07 FAQ | `faq.md` | ✅ 完了 |
+| 05 セクションコピー(★キャッチ選定) | `section_copy.md` / `copy.md`(DAY03統合版) | ✅ 完了(採用:候補3「一度、外注で失敗した経営者の方へ。」10案中TOP3を理由付きで記録) |
+| 06 CTA | `cta.md` / `copy.md` | ✅ 完了 |
+| 07 FAQ | `faq.md` / `copy.md` | ✅ 完了(7問。実績非開示への不安に答える1問を追加) |
 | 08 HTML | `html.md` + `lp.html` | ✅ 完了(Playwright動作確認済み・JSエラー0件) |
 | 09 CSS | `css.md` + `style.css` | ✅ 完了 |
 | 10 WordPress | `wordpress.md` | ✅ 完了 |
@@ -41,7 +41,8 @@ USPを別セッション(サブエージェント)で`TEMPLATES/REVIEW_TEMPLATE.
 | `structure.md` | Module 04の出力(project.structure)✅承認済み |
 | `section_copy.md` | Module 05の出力(project.copy) |
 | `cta.md` | Module 06の出力(project.cta) |
-| `faq.md` | Module 07の出力(project.faq) |
+| `faq.md` | Module 07の出力(project.faq)。7問 |
+| `copy.md` | DAY03統合版:Module 05→06→07を1ファイルに(10案キャッチ+TOP3理由付き) |
 | `html.md` | Module 08のプレースホルダ対応表・残作業リスト |
 | `lp.html` | 完成HTML(実データ) |
 | `css.md` | Module 09のカラー選定理由 |
@@ -50,7 +51,7 @@ USPを別セッション(サブエージェント)で`TEMPLATES/REVIEW_TEMPLATE.
 
 ## 公開前の残作業(html.md の詳細版)
 
-- [ ] お客様の声×2・実績数字(掲載許可を得た実物)
+- [x] お客様の声・実績数字(オーナー方針決定・2026-07-08):「実績、募集中です」と正直に開示する構成に変更
 - [x] 料金プラン・納期(オーナー確定・2026-07-08):5,000円(実績作りのための特別価格)/ 最短3日〜
 - [ ] 問い合わせフォームURL・電話番号(任意)・会社概要URLの差し込み
 - [ ] OGP画像URLの差し込み
