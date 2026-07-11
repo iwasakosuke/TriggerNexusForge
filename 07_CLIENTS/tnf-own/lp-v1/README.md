@@ -16,7 +16,7 @@
 | 05 セクションコピー(★キャッチ選定) | `section_copy.md` / `copy.md`(DAY03統合版) | ✅ 完了(採用:候補3「一度、外注で失敗した経営者の方へ。」10案中TOP3を理由付きで記録) |
 | 06 CTA | `cta.md` / `copy.md` | ✅ 完了 |
 | 07 FAQ | `faq.md` / `copy.md` | ✅ 完了(7問。実績非開示への不安に答える1問を追加) |
-| 08 HTML | `html.md` + `lp.html` | ✅ 完了(Playwright動作確認済み・JSエラー0件) |
+| 08 HTML | `html.md` + `index.html` | ✅ 完了(Playwright動作確認済み・JSエラー0件。DAY04でWeb標準命名の`index.html`に改名) |
 | 09 CSS | `css.md` + `style.css` | ✅ 完了 |
 | 10 WordPress | `wordpress.md` | ✅ 完了 |
 
@@ -28,7 +28,7 @@
 重点確認事項(競合の共通項と被っていないか)はクリア。禁止事項(捏造・NGワード・機密情報・未処理プレースホルダ)も該当なし。
 
 **総合判定:条件付き承認** → 条件(「テンプレ感のないLP」と「業種別プリセット」の論理矛盾リスクの解消)を反映済み。
-`usp.md`のサポートポイントと`section_copy.md`/`lp.html`の「対応業種と勝ちパターン」セクション両方に
+`usp.md`のサポートポイントと`section_copy.md`/`index.html`の「対応業種と勝ちパターン」セクション両方に
 「プリセットは出発点であり店舗ごとにカスタマイズする」旨の一文を追加した。
 
 **DAY03(copy.md検品+音読テスト)**:別セッションで`copy.md`を検品(2026-07-10)。禁止事項該当なし・
@@ -52,7 +52,7 @@
 | `faq.md` | Module 07の出力(project.faq)。7問 |
 | `copy.md` | DAY03統合版:Module 05→06→07を1ファイルに(10案キャッチ+TOP3理由付き) |
 | `html.md` | Module 08のプレースホルダ対応表・残作業リスト |
-| `lp.html` | 完成HTML(実データ) |
+| `index.html` | 完成HTML(実データ) |
 | `css.md` | Module 09のカラー選定理由 |
 | `style.css` | 完成CSS(実データ。primary色をAA適合に調整済み) |
 | `wordpress.md` | Module 10のWordPress貼り付けキット |

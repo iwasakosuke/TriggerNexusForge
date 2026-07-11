@@ -3,8 +3,8 @@
 <!-- 06_PRODUCTS/01_LP_BUILDER/Modules/08_html.md の手順で
      copy(section_copy.md) + cta.md + faq.md を Templates/lp.html に流し込んだ記録 -->
 
-完成HTML本体は `lp.html`(+ `style.css`)。Playwrightでの動作確認済み(セクション8個・カード9枚・FAQ6問すべて表示、
-`<details>`開閉動作OK、JSエラー0件)。スクリーンショット:このチャットのやり取りを参照。
+完成HTML本体は `index.html`(+ `style.css`。DAY04でWeb標準命名に改名)。Playwrightでの動作確認済み
+(セクション8個・カード9枚・FAQ7問すべて表示、`<details>`開閉動作OK、JSエラー0件)。
 
 ## テンプレートとの差分(標準構成にない/変更したセクション)
 

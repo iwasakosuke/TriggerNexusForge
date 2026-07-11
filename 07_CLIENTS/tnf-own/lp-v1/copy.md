@@ -212,4 +212,4 @@ faq:
 
 「絶対」「100%」「誰でも簡単に」「必ず」を本ファイル全文検索 → 0件(候補10のみ検討過程で言及し、不採用理由として明記。本文には不使用)。
 
-→ 次:`06_PRODUCTS/01_LP_BUILDER/Modules/08_html.md`(HTML実装。既存の`lp.html`は本ファイルの内容と同一の文言で実装済み)
+→ 次:`06_PRODUCTS/01_LP_BUILDER/Modules/08_html.md`(HTML実装。既存の`index.html`は本ファイルの内容と同一の文言で実装済み)
