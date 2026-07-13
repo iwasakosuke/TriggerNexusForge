@@ -6,6 +6,7 @@
 |---------|------|------|
 | [example_seitai.md](example_seitai.md) | 整体院 | 業種名だけを入力した場合のフル実行例(STAGE 0〜7 抜粋) |
 | [pet_grooming/](pet_grooming/) | ペットグルーミングサロン | ui-ux-pro-maxでデザインシステムを決めてから作った完成HTML例(遊び心・親しみやすさ重視、Claymorphismスタイル) |
+| [example_webdesigner.md](example_webdesigner.md) | Webデザイナー(個人/フリーランス、業種プリセット外) | DAY05他業種テスト。実績ゼロの状態でも捏造せずLPを組む設計例。所要時間ログ・違和感メモ付き |
 
 ## 実行例の読み方
 
