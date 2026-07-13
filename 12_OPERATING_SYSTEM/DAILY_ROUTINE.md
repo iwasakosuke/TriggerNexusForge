@@ -28,6 +28,8 @@
 
 ```
 □ 今日の成果物をコミット&プッシュした(GITHUB_RULES.md の手順)
+□ CHANGELOG.md・日報の日付は「実際に作業した日」であることを確認した
+  (長時間セッションではセッション開始日のまま書きがち。迷ったら `git log --date=format:"%Y-%m-%d"` で答え合わせする)
 □ CHANGELOG.md に1行追記した(DAY番号・やったこと・状態)
 □ 日報を書いた(TEMPLATES/DAILY_REPORT_TEMPLATE.md → 08_DOCUMENTS/daily/ に保存)
 □ 明日のDAYファイルを1分だけ眺めた(脳に予告を入れると朝が速い)

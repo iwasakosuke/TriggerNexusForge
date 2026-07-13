@@ -11,6 +11,8 @@
 [01 入力フォーム] → project.yaml(入力部)
       ↓
 [02 ペルソナ] → [03 USP] → [04 LP構成]★承認 → [05 セクションコピー]
+      ↓              ↑適用             ↑適用          ↑適用
+      │        [05b 実績なし案件の設計パターン](facts空欄のときだけ適用)
       ↓                                              ↓
 [06 CTA] ← ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┤
 [07 FAQ] ← ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┘
@@ -27,6 +29,7 @@
 | [03_usp](03_usp.md) | `input` + `persona` | `project.usp` |
 | [04_structure](04_structure.md) | `input` + `persona` + `usp` | `project.structure` ★承認ゲート |
 | [05_section_copy](05_section_copy.md) | 上記すべて | `project.copy` |
+| [05b_no_track_record](05b_no_track_record.md) | `input.facts` が空欄のときだけ適用 | 03/04/05への追加指示(条件付きモジュール) |
 | [06_cta](06_cta.md) | `persona` + `copy` | `project.cta` |
 | [07_faq](07_faq.md) | `persona` + `input` | `project.faq` |
 | [08_html](08_html.md) | `copy` + `cta` + `faq` | 完成HTML(`Templates/lp.html` 準拠) |
@@ -83,3 +86,17 @@ project:
 - 事実の捏造禁止(未入力は【要記入】枠)/ 誇大表現禁止 / 業種規制に【規制注意】
 - 出力は必ず「出力契約」のYAML/表形式に従う(次モジュールが機械的に受け取れる形)
 - サンプルは全モジュール共通の題材「パーソナルジム」で通してある(入→出の追跡ができる)
+- 同じ案件内で意味の近い語を無自覚に混用していないか、Module 05(コピー確定時)とModule 08(HTML化前)で確認する
+  (例:「実績パターン」と「実績、募集中です」を同じ案件で併用すると矛盾して見える。`07_CLIENTS/tnf-own/lp-v1`で発生した実例)
+
+## 品質担保:別セッション検品(推奨)
+
+自分(同じセッション)では気づけない論理矛盾・語の衝突が、別セッション(サブエージェント)検品で
+複数回発見されている(USPの根拠矛盾、「実績パターン」語の衝突など)。以下の2箇所で実施を推奨する:
+
+1. **Module 04承認後**:USPと構成に論理矛盾がないか(例:プリセット訴求と「テンプレ感がない」の主張が両立するか)
+2. **Module 05〜07完了後**:コピー全体の用語統一・音読での違和感チェック(HTML化=Module 08の前)
+
+検品は `12_OPERATING_SYSTEM/TEMPLATES/REVIEW_TEMPLATE.md` の手順に従う。
+実行方法:Claude Codeの `Agent` ツールで `general-purpose` サブエージェントを起動し、
+対象ファイルのパスとREVIEW_TEMPLATE.mdの手順を渡して独立に判定させる。
