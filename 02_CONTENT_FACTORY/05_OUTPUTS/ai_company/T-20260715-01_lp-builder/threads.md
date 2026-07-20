@@ -2,10 +2,10 @@
 テーマID: T-20260715-01
 媒体: Threads
 形式: 単発×2(Prompt1+Prompt3、note記事からの多展開)
-状態: draft
+状態: approved
 生成: SNS_AI
-検品:
-承認:
+検品: 承認(2026-07-20、DAY12最終検品・別セッション検品)→ 禁止事項該当なし、宣伝色なし、問いかけ終わり統一済み、master.md/cta.md/brand.md/tone.md/readability.md/proofreading.md+quality_standards.md 3条件すべてクリア
+承認: 2026-07-20(DAY12指示に基づき検品通過分をapproved化。最終公開判断はオーナー)
 公開:
 ```
 

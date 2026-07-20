@@ -2,10 +2,10 @@
 テーマID: T-20260715-01
 媒体: X
 形式: スレッド(6投稿、note記事からの多展開)
-状態: draft
+状態: approved
 生成: SNS_AI
-検品:
-承認:
+検品: 承認(2026-07-20、DAY12最終検品・別セッション検品)→ 禁止事項該当なし、数字は_input.mdと全件一致、140字以内・絵文字1個のみ、master.md/cta.md/brand.md/tone.md/readability.md/proofreading.md+quality_standards.md 3条件すべてクリア
+承認: 2026-07-20(DAY12指示に基づき検品通過分をapproved化。最終公開判断はオーナー)
 公開:
 ```
 
