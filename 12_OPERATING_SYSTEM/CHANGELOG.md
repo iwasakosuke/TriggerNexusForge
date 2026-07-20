@@ -6,6 +6,7 @@
 
 | 日付 | DAY | やったこと | 状態 |
 |------|-----|-----------|------|
+| 2026-07-20 | DAY12(検品) | テーマ1号の全6成果物に別セッション検品(master.md+媒体別チェックリスト+quality_standards.md 3条件)を実施。x_single.md単発1の未検証な実績主張(「受注しました」)を修正、図解画像を3点修正(矢印整列・オレンジ大面積解消・フォント規定準拠)。全ファイルをapproved化し_day12_review.mdに記録。公開はオーナー実施待ち | 完了(公開待ち) |
 | 2026-07-20 | DAY11補完 | week1_flow_design.mdの設計指示に沿って図解を画像化(HTML/CSS+Playwrightでスクリーンショット、Designer_AI相当の作業)。フロー5ステップ+強調ポイントを実装、WCAGコントラストを機械チェックし全ペアAA基準クリア。images/week1_flow.pngとして保存 | 完了 |
 | 2026-07-19 | DAY11 | Threads.md Prompt1+Prompt3でThreads投稿2本を作成(等身大トーン・問いかけ終わりで統一、各3案から採用選定)。X.md Prompt3でWeek1の流れをフロー型図解の設計指示書として作成(images/week1_flow_design.md)。テーマ1号フォルダにnote/X(単発+スレッド)/Threads/図解指示の全4媒体が揃った | 完了 |
 | 2026-07-19 | DAY10 | オーナー承認済みのnote記事(テーマ1号)から、X.md Prompt4(多展開)で単発3本+スレッド1本(6投稿)を作成。各単発フックは3案から★選定。全投稿140字以内・SNS_AI Rules.mdの共通チェックリスト通過。x_single.md/x_thread.mdとして保存(状態draft) | 完了 |
