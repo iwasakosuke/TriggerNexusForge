@@ -6,6 +6,7 @@
 
 | 日付 | DAY | やったこと | 状態 |
 |------|-----|-----------|------|
+| 2026-08-01 | DAY21 | Week3締め。07_CLIENTS/_sales_kit/README.mdを作成(6点+READMEの使う順番、案件の流れとキットの対応図)。CEO_AI形式でWeek3週次レビューをドラフト(08_DOCUMENTS/weekly/2026-08-01_week3_review.md)。06_PRODUCTS/07_RELEASES/release_log.mdにProposal Builder v0.2(営業キット統合・実戦テスト済み)を記録し、Roadmap.mdをv0.1完了/v0.2完了に更新。通しテスト(問い合わせ受信→一次返信→ヒアリング準備→提案書ドラフトを美容室の架空案件で実施、約24分/目標30分)を実施し、sample_proposal_seitai.mdの書き換えポイント不足を発見・補修。あわせてDAY15〜20のCHANGELOG・日報・作成日ヘッダーが誤って2026-07-24で統一されていた問題を発見し、git logの実コミット日付に訂正 | 完了 |
 | 2026-07-31 | DAY20 | Sales_AIとして商談準備キットを作成。intake_sheet.mdベースの商談用ヒアリングシート、想定問答10問(効果保証は「保証しない+できることを示す」型で回答)、Core Engineデモ台本(3分)、30分商談進行表。セルフ商談ロールプレイで2問(効果保証・価格)の回答が弱いことを発見し、回答を書き直してキットに反映。07_CLIENTS/_sales_kit/meeting_kit.mdに保存 | 完了 |
 | 2026-07-30 | DAY19 | Sales_AIとして営業文セットを作成。完成条件を数えると9本(一次返信/ヒアリング日程調整/提案送付/フォロー2種/受注お礼/断り3種)だったため、タイトルの「8種」と食い違う点を明記した上で9本すべて作成。各文に【差し込み変数】を明示、断り3種はSales_AI Knowledge準拠(嘘の理由を作らない)。声出しテスト・NGワード検索・へりくだりすぎチェックを実施し、機械チェックの誤検出(レビュー文自体のNGワード引用)も修正。07_CLIENTS/_sales_kit/sales_messages.mdに保存 | 完了 |
 | 2026-07-29 | DAY18 | tnf-own/lp-v1・Content Factory(テーマ1号2号)・LP Builder・Core Engineの4実績でポートフォリオを作成。各実績に概要・工夫した点・事実の数字(未公開のものは正直に「未公開」と明記)を記載。「実績が少ない時期の見せ方」としてCHANGELOG・週次レビュー・日報への導線を組込。見込み客の目テスト・Brand Check(07_CHECKLIST/brand.md)を実施。07_CLIENTS/_sales_kit/portfolio.mdに保存 | 完了 |
