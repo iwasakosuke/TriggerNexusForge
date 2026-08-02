@@ -12,6 +12,7 @@
    1.(今日のSprint=最優先)
    2.(実案件・問い合わせ対応があれば)
    3.(余力があれば:SNS発信)
+□ 起動手順:01_AI_EMPLOYEES/PM_AI/Prompt.mdを貼り「今日のブリーフィングを」と依頼→05_AUTOMATION/02_PROJECT_MANAGEMENT/project_sheet.md・10_LOGS/project_log.mdを読ませて現状を渡す→08_DOCUMENTS/briefings/YYYY-MM-DD.mdに保存
 □ 通知を切る(Sprint実行中はシングルタスク)
 ```
 
