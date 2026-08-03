@@ -6,6 +6,7 @@
 
 | 日付 | DAY | やったこと | 状態 |
 |------|-----|-----------|------|
+| 2026-08-03 | DAY23 | 案件初期化スクリプト(05_AUTOMATION/scripts/init_project.sh)を作成。09_KNOWLEDGE_HUB/13_AUTOMATION/Knowledge.mdの自動化の階段(段階2:テンプレ化)に沿い、07_CLIENTS/(案件名)/を作成しintake_sheet.md・project_sheet.mdのテンプレート本体をコピー、images/・assets/の作業フォルダも作成する。既存フォルダがある場合は上書きしない安全策・引数バリデーションを実装。スクリプトなしでも同じ結果になる手動5ステップをscripts/README.mdに併記。test-projectでテスト実行(正常系・引数なし・既存フォルダ・不正な案件名の4パターン)し、確認後にテストフォルダを削除 | 完了 |
 | 2026-08-02 | DAY22 | Week4開始。PM_AIとして本日の日次ブリーフィング1回目を作成(08_DOCUMENTS/briefings/2026-08-02.md)。05_AUTOMATION/10_LOGS/project_log.mdにtnf-own/lp-v1の状態遷移(2026-07-09 production開始〜2026-07-29 review完了〜現在delivery待ちで停滞)をmaster_flow.mdの10ステート定義に沿って遡って記録し、18日間の公開停滞をブリーフィングでエスカレーション。12_OPERATING_SYSTEM/DAILY_ROUTINE.mdの朝ルーティンにPM_AIブリーフィングの具体的な起動手順を1行追記 | 完了 |
 | 2026-08-01 | DAY21 | Week3締め。07_CLIENTS/_sales_kit/README.mdを作成(6点+READMEの使う順番、案件の流れとキットの対応図)。CEO_AI形式でWeek3週次レビューをドラフト(08_DOCUMENTS/weekly/2026-08-01_week3_review.md)。06_PRODUCTS/07_RELEASES/release_log.mdにProposal Builder v0.2(営業キット統合・実戦テスト済み)を記録し、Roadmap.mdをv0.1完了/v0.2完了に更新。通しテスト(問い合わせ受信→一次返信→ヒアリング準備→提案書ドラフトを美容室の架空案件で実施、約24分/目標30分)を実施し、sample_proposal_seitai.mdの書き換えポイント不足を発見・補修。あわせてDAY15〜20のCHANGELOG・日報・作成日ヘッダーが誤って2026-07-24で統一されていた問題を発見し、git logの実コミット日付に訂正 | 完了 |
 | 2026-07-31 | DAY20 | Sales_AIとして商談準備キットを作成。intake_sheet.mdベースの商談用ヒアリングシート、想定問答10問(効果保証は「保証しない+できることを示す」型で回答)、Core Engineデモ台本(3分)、30分商談進行表。セルフ商談ロールプレイで2問(効果保証・価格)の回答が弱いことを発見し、回答を書き直してキットに反映。07_CLIENTS/_sales_kit/meeting_kit.mdに保存 | 完了 |
