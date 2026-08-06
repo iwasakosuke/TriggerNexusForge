@@ -18,6 +18,7 @@
 ```
 06_PRODUCTS/
 ├── README.md               # 本ファイル
+├── 00_CORE_ENGINE/         # 製品:業種別LP生成エンジン(MVP・ブラウザ完結)
 ├── 01_LP_BUILDER/          # 製品:LP自動設計キット
 ├── 02_CONTENT_FACTORY_PRO/ # 製品:コンテンツ工場(汎用版)
 ├── 03_PROPOSAL_BUILDER/    # 製品:提案書・見積ジェネレーター

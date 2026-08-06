@@ -56,7 +56,7 @@ TriggerNexusForge/
 ├── 03_WEB_STUDIO/       # 💻 Web制作 — LP/HTML/CSS/WordPress/業種別テンプレート
 ├── 04_DESIGN_SYSTEM/    # 🎨 デザインシステム — TNF Design Engine(10エンジン)+デザイン資産
 ├── 05_AUTOMATION/       # ⚙️ Automation Hub — 受注〜納品〜請求の案件ワークフロー・自動化
-├── 06_PRODUCTS/         # 📦 Product Factory — 再利用・販売可能なAIプロダクト5種+販売基盤
+├── 06_PRODUCTS/         # 📦 Product Factory — 再利用・販売可能なAIプロダクト6種+販売基盤
 ├── 07_CLIENTS/          # 🤝 クライアントワーク — 受注案件・提案書・納品物
 ├── 08_DOCUMENTS/        # 📚 ドキュメント — マニュアル・ナレッジ・議事録
 ├── 09_KNOWLEDGE_HUB/    # 🧠 知識ハブ — 全AI社員共通の知識ベース(20ドメイン)
@@ -76,7 +76,7 @@ TriggerNexusForge/
 | [`03_WEB_STUDIO`](03_WEB_STUDIO/) | Web制作スタジオ | LPテンプレート、WordPressスターターテーマ、業種別の設計プレイブック |
 | [`04_DESIGN_SYSTEM`](04_DESIGN_SYSTEM/) | デザインの統一基準 | **TNF Design Engine**(色・文字・レイアウト等10エンジンの判断ロジック)+デザイン資産 |
 | [`05_AUTOMATION`](05_AUTOMATION/) | Automation Hub(案件の生産ライン) | 受注→制作→レビュー→納品→請求のワークフロー、AI社員の分配ルール、自動化・n8n連携計画 |
-| [`06_PRODUCTS`](06_PRODUCTS/) | Product Factory(商品開発部門) | AIプロダクト5種(LP Builder / Content Factory PRO / Proposal Builder / Design Review AI / Client Portal)+共有部品・リリース・販売・フィードバック管理 |
+| [`06_PRODUCTS`](06_PRODUCTS/) | Product Factory(商品開発部門) | AIプロダクト6種(Core Engine / LP Builder / Content Factory PRO / Proposal Builder / Design Review AI / Client Portal)+共有部品・リリース・販売・フィードバック管理 |
 | [`07_CLIENTS`](07_CLIENTS/) | クライアント案件の管理 | 案件フォルダ(クライアント別)、提案書、納品物アーカイブ |
 | [`08_DOCUMENTS`](08_DOCUMENTS/) | 個別の記録 | 業務マニュアル、議事録、調査資料、振り返り記録 |
 | [`09_KNOWLEDGE_HUB`](09_KNOWLEDGE_HUB/) | 会社の脳(全社知識ベース) | 20ドメイン×4ファイル(Knowledge/BestPractice/Checklist)。全AI社員が共通参照 |
