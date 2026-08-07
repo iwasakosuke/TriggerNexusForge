@@ -8,7 +8,7 @@
 | 項目 | 値 |
 |------|-----|
 | ページタイトル | 一度、外注で失敗した経営者の方へ。\|Trigger Nexus Forge |
-| パーマリンク | lp(※重要:`index.html`で確定済みのcanonical URL `http://trgger0307.com/lp/` と一致させるため、WordPress側のパーマリンクは必ず `lp` のみにする。`lp-production-service` 等の別スラッグにすると、SEO上は別ページ扱いになり整合性が崩れる) |
+| パーマリンク | lp(※重要:`index.html`で確定済みのcanonical URL `https://trigger0307.com/lp/` と一致させるため、WordPress側のパーマリンクは必ず `lp` のみにする。`lp-production-service` 等の別スラッグにすると、SEO上は別ページ扱いになり整合性が崩れる) |
 | メタディスクリプション | 業種別の勝ちパターンをもとに設計するLP制作。価格は着手前に確定、追加費用なし。AI活用で短納期。小規模事業者のオーナー様へ。 |
 | ページテンプレート | 固定ページ(フルワイドがあれば推奨) |
 
