@@ -6,6 +6,7 @@
 
 | 日付 | DAY | やったこと | 状態 |
 |------|-----|-----------|------|
+| 2026-08-06 | DAY24 | git status/log整理:作業ブランチはmainより79コミット進み、mainの独自コミットは0(fast-forward可能)。ルートREADME.mdと実フォルダ構成を照合し、06_PRODUCTSの実際は6製品(00_CORE_ENGINEを含む)なのにREADMEが「5種」表記だった記載漏れを発見・修正(06_PRODUCTS/README.mdのフォルダ図も同様に修正)。作業ブランチをmainへfast-forwardマージ(コンフリクトなし)しpush、タグos-v1.0を作成。タグのpushだけこのセッションの権限で403拒否されたため、オーナーがGitHub Web UIで作成(全角「１」で作成される事故が1回発生→半角で再作成し解消) | 完了 |
 | 2026-08-03 | (号外) | 持ち越し2件を解消。①価格戦略をB案で確定(竹プラン初回受注1件限定150,000円)し、service_menu.md・sample_proposal_seitai.md・Proposal Builder Roadmapに反映。②公開準備:自社LP(tnf-own/lp-v1)のデプロイ用ファイル一式(zip)、テーマ1号のnote/X単発/Xスレッド/Threads、テーマ2号を独立検品で再検品(合格・_input.md/master_flow.mdとの数字整合を確認)し、オーナーが実際に公開できる形で全ファイルを送付。公開実行(投稿・デプロイ)自体はAI First, Human Finalの原則によりオーナーが行う | 完了 |
 | 2026-08-03 | DAY23 | 案件初期化スクリプト(05_AUTOMATION/scripts/init_project.sh)を作成。09_KNOWLEDGE_HUB/13_AUTOMATION/Knowledge.mdの自動化の階段(段階2:テンプレ化)に沿い、07_CLIENTS/(案件名)/を作成しintake_sheet.md・project_sheet.mdのテンプレート本体をコピー、images/・assets/の作業フォルダも作成する。既存フォルダがある場合は上書きしない安全策・引数バリデーションを実装。スクリプトなしでも同じ結果になる手動5ステップをscripts/README.mdに併記。test-projectでテスト実行(正常系・引数なし・既存フォルダ・不正な案件名の4パターン)し、確認後にテストフォルダを削除 | 完了 |
 | 2026-08-02 | DAY22 | Week4開始。PM_AIとして本日の日次ブリーフィング1回目を作成(08_DOCUMENTS/briefings/2026-08-02.md)。05_AUTOMATION/10_LOGS/project_log.mdにtnf-own/lp-v1の状態遷移(2026-07-09 production開始〜2026-07-29 review完了〜現在delivery待ちで停滞)をmaster_flow.mdの10ステート定義に沿って遡って記録し、18日間の公開停滞をブリーフィングでエスカレーション。12_OPERATING_SYSTEM/DAILY_ROUTINE.mdの朝ルーティンにPM_AIブリーフィングの具体的な起動手順を1行追記 | 完了 |
