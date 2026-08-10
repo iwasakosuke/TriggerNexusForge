@@ -2,18 +2,20 @@
 
 <!-- 問い合わせ〜受注までを1人で回すための営業資料一式。Proposal Builder(06_PRODUCTS/03_PROPOSAL_BUILDER)の実運用資産 -->
 
-「明日問い合わせが来ても対応できる」状態を作るための6点セットです。実際の案件では、以下の順番で使います。
+「明日問い合わせが来ても対応できる」状態を作るための営業資料一式です。実際の案件では、以下の順番で使います。
 
 ## 使う順番
 
 | # | ファイル | 使うタイミング | 内容 |
 |---|---------|---------------|------|
+| 0 | [SERVICE_CATALOG.md](SERVICE_CATALOG.md) | 問い合わせ受信直後(サービス選定) | 5サービスの一覧・価格・Sales_AI連携ルール(問い合わせ内容→推奨サービス) |
 | 1 | [sales_messages.md](sales_messages.md) | 問い合わせ受信直後 | 一次返信(24時間ルール)、ヒアリング日程調整など9本の定型文 |
 | 2 | [meeting_kit.md](meeting_kit.md) | 商談前〜商談中 | ヒアリングシート・想定問答10問・Core Engineデモ台本・30分進行表 |
 | 3 | [portfolio.md](portfolio.md) | 商談中(実績を見せる場面) | 実績4点(自社LP・発信コンテンツ・LP Builder・Core Engine) |
-| 4 | [service_menu.md](service_menu.md) | 提案書作成時(価格の基準) | LP制作・コンテンツ制作代行の松竹梅料金表+標準条件 |
+| 4 | [service_menu.md](service_menu.md) | 提案書作成時(価格の基準) | LP制作・コンテンツ制作代行の松竹梅料金表+標準条件(SERVICE_CATALOG.mdの02・05はここを参照) |
 | 5 | [sample_proposal_seitai.md](sample_proposal_seitai.md) | 提案書作成時(たたき台) | 提案書のサンプル(整体院/架空案件)。業種・固有名詞を書き換えて流用する |
 | 6 | [standard_terms.md](standard_terms.md) | 契約条件の確認・提示時 | 「よくあるトラブル→防ぐ文言」対応表。提案書に組み込み済みだが原本として参照 |
+| — | [MONTHLY_300K_MODEL.md](MONTHLY_300K_MODEL.md) | 事業計画の確認時 | 月30万円モデル3パターン(オーナー向け、商談では使わない) |
 
 ## 案件の流れとキットの対応
 
@@ -61,5 +63,6 @@
 
 | 日付 | 内容 |
 |------|------|
+| 2026-08-10 | Day27:SERVICE_CATALOG.md(5サービスの商品化)・MONTHLY_300K_MODEL.md(月30万円モデル3パターン)を追加。02 LP制作・05 コンテンツ制作代行はservice_menu.mdの価格を流用し重複を回避 |
 | 2026-08-03 | 価格戦略(A案/B案)をオーナーが確定。B案(竹プラン初回受注1件限定・150,000円)を採用し、service_menu.md・sample_proposal_seitai.mdに反映 |
 | 2026-08-01 | 6点セット完成(DAY15〜20)。README作成、通しテスト(30分シミュレーション、実測約24分)を実施し、sample_proposal_seitai.mdの書き換えポイント不足を発見・補修(DAY21) |

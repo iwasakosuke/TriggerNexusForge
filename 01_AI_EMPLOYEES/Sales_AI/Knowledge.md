@@ -43,6 +43,7 @@
 | `03_WEB_STUDIO/INDUSTRY_TEMPLATES/` | 業種別の訴求ポイント(提案の引き出し) |
 | `07_CLIENTS/` | 過去案件・進行中パイプラインの確認 |
 | `06_PRODUCTS/` | プロダクト(クロスセル素材)の把握 |
+| `07_CLIENTS/_sales_kit/SERVICE_CATALOG.md` | 受託サービス5種の一覧・価格・問い合わせ内容→推奨サービスのルール(Day27で新設) |
 
 ## 知識のアップデート方針
 
